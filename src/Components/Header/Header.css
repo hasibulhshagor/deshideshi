@@ -1,0 +1,127 @@
+header {
+    width: 100%;
+    border: 1px solid;
+    height: 100px;
+    margin: auto;
+    padding: 0 0 25px 0;
+
+}
+
+header .headerSearch {
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header .headerSearch .allCateg {
+    width: 24%;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+}
+
+header .headerSearch .allCateg::after {
+    content: '';
+    width: 2px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+header .headerSearch .search {
+    width: 78%;
+    margin-left: 5px;
+
+}
+
+header .headerSearch .search input {
+    width: 100%;
+    height: 30px;
+    margin-left: 5px;
+    border: 0;
+    outline: 0;
+
+}
+
+header .headerSearch .search input::placeholder {
+    font-size: 14px;
+}
+
+header .headerSearch .searchIcon {
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.headerLocation {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.logoContainer {
+
+    height: 90px;
+    margin-top: -15px;
+    padding: 2px;
+    box-sizing: border-box;
+
+
+
+}
+
+.logoContainer img {
+    width: 100%;
+    height: 100%;
+    padding-top: -5px;
+}
+
+header .headerTabs ul li {
+    position: relative;
+    font-size: 17px;
+}
+
+header .headerTabs ul li .badges {
+    background-color: rgb(241, 78, 78);
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    top: -45%;
+    left: 20%;
+
+}
+
+header .accountContainer {
+    width: 130px;
+    height: 120px;
+    background-color: white;
+    display: block;
+    padding-left: 5px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    left: -2%;
+    border-radius: 5px;
+
+
+}
+
+header .accountContainer ul li {
+    font-size: 12px;
+    padding: 2px;
+}
+
+header .accountContainer ul li:hover {
+    background-color: #ECB159;
+    padding: 2px;
+    color: white;
+}

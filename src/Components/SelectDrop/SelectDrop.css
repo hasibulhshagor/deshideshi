@@ -1,0 +1,57 @@
+.allCatg .openSelect {
+    display: block;
+}
+
+.selectDrop {
+    width: 190px;
+    max-height: 200px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 142%;
+    left: -6%;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 3px 5px rgb(238, 226, 226);
+    z-index: 100;
+}
+
+.selectDrop::-webkit-scrollbar {
+    width: 5px;
+}
+
+.selectDrop::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+.selectField {
+    padding: 8px;
+}
+
+.selectField input {
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    outline: 0;
+    font-size: 12px;
+}
+
+.selectField ul {
+    padding: 0;
+}
+
+.selectField ul li {
+    list-style: none;
+    font-size: 12px;
+    padding: 3px 5px;
+    width: 100%;
+}
+
+.selectField ul li:hover {
+    background-color: #ECB159;
+    color: white;
+    font-weight: bold;
+}
+
+.selectField ul li.active {
+    background-color: #ffcf87;
+}
