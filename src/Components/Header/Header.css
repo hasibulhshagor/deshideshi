@@ -125,3 +125,17 @@ header .accountContainer ul li:hover {
     padding: 2px;
     color: white;
 }
+
+.ofcHeader {
+    background-color: #335840;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 100%;
+}
+
+.ofcHeader p {
+    margin: 0;
+
+}

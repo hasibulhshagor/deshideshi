@@ -9,6 +9,9 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import { Box, Drawer, Typography } from '@mui/material';
+import Counter from '../Same Component/Counter/Counter';
+
 
 
 
@@ -43,6 +46,26 @@ const Header = () => {
     const processingAccount = (e) => {
         setAccountOpen(!accountOpen)
     }
+
+
+    const [open, setOpen] = React.useState(false);
+
+    const toggleDrawer = (newOpen) => () => {
+        setOpen(newOpen);
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     return (
         <>
@@ -85,7 +108,7 @@ const Header = () => {
 
 
                                     <ul className='list list-inline ps-3' style={{ cursor: 'pointer' }} title='Your wishlist'>
-                                        <li className='list-inline-items'>
+                                        <li className='list-inline-items' onClick={toggleDrawer(true)}>
                                             <span><FavoriteBorderIcon /></span>
                                             <span>Wishlist</span>
                                             <span className='badges'>13</span>
@@ -93,7 +116,7 @@ const Header = () => {
 
                                     </ul>
                                     <ul className='list list-inline ps-3' style={{ cursor: 'pointer' }} title='Your Cart'>
-                                        <li className='list-inline-items'>
+                                        <li className='list-inline-items' onClick={toggleDrawer(true)}>
                                             <span><ShoppingCartOutlinedIcon /></span>
                                             <span>Cart</span>
                                             <span className='badges'>13</span>
@@ -123,6 +146,30 @@ const Header = () => {
                         </div>
 
                     </div>
+
+
+                    <div>
+
+                        <Drawer open={open} onClose={toggleDrawer(false)} anchor='right'>
+                            <Box sx={{ width: 380, marginTop: '15px' }} role="presentation" onClick={toggleDrawer(true)}>
+
+                                <div className='ofcHeader'>
+                                    <p style={{ textAlign: 'center' }}>
+                                        Hi!! Dear Customer
+                                    </p>
+                                    <p style={{ fontSize: '15px', paddingTop: '5px' }}>Total Quantity:</p>
+                                    <p>Total Amount:</p>
+
+                                </div>
+                                <div style={{ width: '100%' }}>
+                                    <Counter></Counter>
+                                </div>
+                            </Box>
+
+                        </Drawer>
+                    </div>
+
+
                 </div>
             </header >
 
