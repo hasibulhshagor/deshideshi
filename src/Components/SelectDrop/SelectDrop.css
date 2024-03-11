@@ -42,16 +42,19 @@
 .selectField ul li {
     list-style: none;
     font-size: 12px;
-    padding: 3px 5px;
+    padding: 4px 10px;
+    margin-bottom: 1px;
     width: 100%;
+    background-color: #F6F5F5;
+
 }
 
 .selectField ul li:hover {
-    background-color: #ECB159;
+    background-color: #FFCAD4;
     color: white;
     font-weight: bold;
 }
 
 .selectField ul li.active {
-    background-color: #ffcf87;
+    background-color: #FFCAD4;
 }

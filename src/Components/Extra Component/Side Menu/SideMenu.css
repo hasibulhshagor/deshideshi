@@ -1,0 +1,24 @@
+.styleListCstm {
+    list-style-type: none;
+    margin-left: -18%;
+}
+
+.styleListCstm li {
+    width: 90%;
+    margin: 1px auto;
+    background-color: #F6F5F5;
+    padding: 5px 0;
+    text-align: start;
+    padding-left: 8%;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.styleListCstm li:hover {
+    background-color: #FFCAD4;
+}
+
+.styleListCstm li.activeSide {
+    background-color: #FFCAD4;
+}

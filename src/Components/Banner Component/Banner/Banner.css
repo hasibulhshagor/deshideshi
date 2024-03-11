@@ -1,0 +1,13 @@
+.containerBanner {
+    height: 450px;
+
+}
+
+.containerBannerInside {
+    height: 100%;
+}
+
+.containerBanner .containerBannerInside {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
