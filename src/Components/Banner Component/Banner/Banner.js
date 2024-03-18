@@ -1,20 +1,19 @@
 import React from 'react';
 import SideMenu from './../../Extra Component/Side Menu/SideMenu'
 import './Banner.css'
-import HeaderCurveBox from '../../Extra Component/HeaderCurveBox/HeaderCurveBox';
+import bannerImg from './../../../Images/header.jpg'
+
 
 
 const Banner = () => {
     return (
         <div className='containerBanner'>
             <div className='containerBannerInside m-3'>
-                <div className=' border border-secondary'>
+                <div className=''>
                     <SideMenu></SideMenu>
                 </div>
-                <div className='' style={{ position: 'relative' }}>
-                    <h3>text loading here</h3>
-                    <h4>wait for next update</h4>
-                    <HeaderCurveBox></HeaderCurveBox>
+                <div className='bannerHeading'  >
+                    <img src={bannerImg} alt="" />
                 </div>
 
             </div>

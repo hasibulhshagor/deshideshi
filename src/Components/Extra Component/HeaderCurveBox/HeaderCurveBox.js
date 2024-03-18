@@ -1,12 +1,15 @@
 import React from 'react';
-import './HeaderCurveBox.css'
+import './HeaderCurveBox.css';
+import ghurImage from '../../../Images/ghur.jpg'
+
+
 
 const HeaderCurveBox = () => {
     return (
         <div className='curveContainer'>
             <div style={{ display: 'flex', width: '100%', height: '49%', margin: '2px' }}>
                 <div style={{ width: '49%', height: '100%', borderRight: '3px solid', borderBottom: '3px solid', margin: '2px', textAlign: 'center' }}>
-                    Frame 01
+                    <img src={ghurImage} alt="" style={{ width: '100%', height: '100%' }} />
                 </div>
                 <div style={{ width: '49%', height: '100%', borderLeft: '3px solid', borderBottom: '3px solid', margin: '2px', textAlign: 'center' }}>
                     frame 2

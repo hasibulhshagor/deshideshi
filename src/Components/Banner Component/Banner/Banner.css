@@ -1,5 +1,5 @@
 .containerBanner {
-    height: 450px;
+    height: 400px;
 
 }
 
@@ -10,4 +10,18 @@
 .containerBanner .containerBannerInside {
     display: grid;
     grid-template-columns: 15% 85%;
+}
+
+
+.bannerHeading {
+
+    margin-left: 2%;
+    background-color: red;
+    width: 95%;
+    height: 65%;
+}
+
+.bannerHeading img {
+    width: 100%;
+    height: 100%;
 }

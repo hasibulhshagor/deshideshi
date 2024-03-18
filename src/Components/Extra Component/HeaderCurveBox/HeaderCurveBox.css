@@ -4,8 +4,7 @@
     position: absolute;
     top: 15%;
     right: 10%;
-    transform: rotate(40deg);
-    box-shadow: 8px 8px 15px 3px #FFCAD4;
+    box-shadow: 1px 1px 2px 1px #FFCAD4;
 }
 
 .curveContainer {

@@ -5,13 +5,14 @@ import './SideMenu.css'
 const SideMenu = () => {
 
     const [sideCatg, setSideCatg] = useState([
-        'Patali Gur',
-        'Sugar',
-        'Fruits',
-        'Ghani Oil',
-        'Ghee',
-        'Mango',
-        'Vegetables'
+        'Fashion & Lifestyle',
+        'Home & Kitchen',
+        'Mens Wearing',
+        'Womens Wearing',
+        'Beauty & Cosmetics',
+        'Toys ',
+        'Fruits & Vegetables',
+        'Grocery Products'
     ])
     const [sideSelected, setSideSelected] = useState(0)
     const contrSideMenu = (index, sdc) => {
@@ -21,7 +22,7 @@ const SideMenu = () => {
 
     return (
         <div>
-            <p style={{ margin: 0, backgroundColor: '#335840', textAlign: 'center', color: 'white', fontWeight: 'bold', fontSize: '15px', padding: ' 4px 0' }}>Categories</p>
+            <p style={{ margin: 0, backgroundColor: '#5D0E41', textAlign: 'center', color: 'white', fontWeight: 'bold', fontSize: '15px', padding: ' 4px 0' }}>All Categories</p>
             <ul className='list styleListCstm'>
 
                 {

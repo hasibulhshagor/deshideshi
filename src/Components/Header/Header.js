@@ -70,12 +70,12 @@ const Header = () => {
     return (
         <>
             <header>
-                <div style={{ height: '35px', margin: '0 0 10px 0', padding: '2px 20px', backgroundColor: 'black', color: 'white', fontSize: '12px', fontWeight: '600', display: 'flex', justifyContent: 'right', alignItems: 'center', }}>
+                <div style={{ height: '45px', margin: '0 0 10px 0', padding: '2px 20px', backgroundColor: '#5D0E41', color: 'white', fontSize: '12px', fontWeight: '600', display: 'flex', justifyContent: 'right', alignItems: 'center', }}>
                     <p style={{ paddingRight: '15px', paddingTop: '15px', color: 'yellow' }}>
-                        <CallOutlinedIcon style={{ fontSize: '22px', fontWeight: 'bold' }} />01626205938
+                        <CallOutlinedIcon style={{ fontSize: '25px', fontWeight: 'bold' }} />01626205938
                     </p>
                     <p style={{ paddingRight: '15px', paddingTop: '15px', color: 'yellow' }}>
-                        <EmailOutlinedIcon style={{ fontSize: '22px', fontWeight: 'bold' }} />hasibul0211@gmail.com
+                        <EmailOutlinedIcon style={{ fontSize: '25px', fontWeight: 'bold' }} />hasibul0211@gmail.com
                     </p>
                 </div>
                 <div className='container-fluid'>
